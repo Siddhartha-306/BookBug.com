@@ -1,0 +1,28 @@
+{
+  "name": "bookbug.com",
+  "version": "1.0.0",
+  "description": "an online bookstore website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhartha-306/BookBug.com.git"
+  },
+  "author": "Siddhartha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddhartha-306/BookBug.com/issues"
+  },
+  "homepage": "https://github.com/Siddhartha-306/BookBug.com#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}

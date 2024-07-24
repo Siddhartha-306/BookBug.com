@@ -1,9 +1,27 @@
-import React from 'react';
-import list from '../data/list.json';
+import React, { useEffect, useState } from 'react';
+// import list from '../data/list.json';
 import Cards from './Cards';
+import axios from 'axios';
 
 function Course() {
-    console.log(list);
+    // console.log(list);
+
+    const [book, setBook] = useState([]);
+
+    useEffect(() => {
+        const getBook = async () => {
+            try{
+                const res = await axios.get("http://localhost:3000/book");
+                console.log(res.data);
+                setBook(res.data);
+            }
+            catch(error){
+                console.log(error);
+            }
+        };
+        getBook();
+    },[]);
+
     return (
     <>
         <div className='py-32 max-w-screen-2xl container mx-auto md:px-18 px-4'> 
@@ -12,7 +30,7 @@ function Course() {
                 <p className='mt-12 text-center'>Welcome to our literary oasis, where every book opens a new world of adventure, inspiration, and knowledge. Our library section is more than just a collection; it's a carefully curated treasure trove of captivating stories, timeless classics, and hidden gems waiting to be discovered. Whether you're a voracious reader or a casual explorer, you'll find something to ignite your passion for reading. Dive into a diverse range of genres, from thrilling mysteries and heartwarming romances to thought-provoking non-fiction and enchanting fantasies. With our handpicked selections and latest releases, your next unforgettable reading experience is just a click away. Explore, enjoy, and let the pages turn themselves into your next great adventure!</p>
             </div>
             <div className='grid  sm:grid-cols-2 md:grid-cols-4 gap-2'>
-                {list.map((item)=>(
+                {book.map((item)=>(
                     // console.log(item);
                     <Cards item = {item} key = {item.id} />
                 ))}
