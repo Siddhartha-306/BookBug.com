@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Drama Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 2,
+        "name": "Drama Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 3,
+        "name": "Drama Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 4,
+        "name": "Comedy Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 5,
+        "name": "Comedy Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 500,
+        "category": "Food",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 6,
+        "name": "Romance Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 400,
+        "category": "Food",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 7,
+        "name": "Romance Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 200,
+        "category": "Romance",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 8,
+        "name": "Fiction Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 100,
+        "category": "Music",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 9,
+        "name": "Fiction Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 50,
+        "category": "Music",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    },
+    {
+        "id": 10,
+        "name": "Thriller Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 100,
+        "category": "Thriller",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDQMJUWHTdtbGLB6QOzDfy3AicEjPl4spUZlGKLWiWbn5n7lkzE3wmb6-FA&s"
+    }
+]
