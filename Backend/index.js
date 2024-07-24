@@ -26,7 +26,12 @@ app.use(cors(
 //json parser
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://siddharthavarshney30:fqYJ6e7ah5fkkjEl@cluster0.s9lc5pf.mongodb.net/BookBug?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://siddharthavarshney30:fqYJ6e7ah5fkkjEl@cluster0.s9lc5pf.mongodb.net/BookBug?retryWrites=true&w=majority&appName=Cluster0', {
+    useNewUrlParser: true,
+    useUnifiedTopolgy: true,
+})
+.then(() => console.log('MongoDB connected...'))
+.catch((err) => console.log('MongoDB connection error:', err));
 
 // //connect to mongodb
 // try{
